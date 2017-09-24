@@ -120,6 +120,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBoxOrigem);
             this.Controls.Add(this.btCopiar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.Name = "MainForm";
             this.ShowIcon = false;
